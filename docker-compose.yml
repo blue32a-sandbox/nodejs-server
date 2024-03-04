@@ -7,3 +7,5 @@ services:
       - .:/home/app:delegated
     working_dir: /home/app
     tty: true
+    ports:
+      - "3000:3000"
